@@ -4,7 +4,7 @@ from flask import Response
 import requests
 import openai
 import os
-
+const port = process.env.PORT || 10000;
 # Give OpenAI Key
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
